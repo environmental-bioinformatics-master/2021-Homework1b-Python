@@ -1,5 +1,5 @@
-# Homework 2 : Python
-As with the last homework, clone this repo to the HPC. By following the homework link a new repo should have been created for you with the form `2019-MIT-Environmental-Bioinformatics/homework1-python-USERNAME`. This is your repository and it is how you will be submitting your homework to us. Follow the same download protocol as before. 
+# Homework 1b : Codons in Python
+As with the last homework, clone this repo to the HPC. By following the homework link a new repo should have been created for you with the form `2021-environmental-bioinformatics/homework1b-python-USERNAME`. This is your repository and it is how you will be submitting your homework to us. Follow the same download protocol as before. 
 
 For this homework, you will building off of the translation exercise that we worked on in class. All your work should be done within the existing `Six-Frame-Translation.ipynb` jupyter notebook. I have provided for your reference and use the functions that we wrote in class (`get_protein` and `reverse_complement`) as well as a cell showing different ways to read in the codon tables (you might want to make this into a function).
 
@@ -11,11 +11,14 @@ This is a great exercise! It is one that I did while learning to code in `python
 **Use your peers. Use your brain. Ask the instructors. Embrace the struggle. It is the best way to learn.**
 
 ## Getting ready to run the assignment
-The first thing that you will need to do prior to attempting this assignment is create a conda environment where you will run your homework. I have created a environment yaml file that you can use to set up the environment with the appropriate libraries. Run: 
+The first thing that you will need to do prior to attempting this assignment is create a conda environment where you will run your homework. I activate the environment we created in class (`python_lab`). We will then install a new python library (`biopython`) Run: 
 
 ```
-conda env create -f homework.yaml
+conda install -c anaconda biopython 
 ```
+
+This should install biopython into your current enviornment! 
+
 ## Starting jupyter
 You are now ready to get going. As a reminder you will want to: 
 
