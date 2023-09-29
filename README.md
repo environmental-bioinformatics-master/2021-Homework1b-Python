@@ -24,10 +24,11 @@ You are now ready to get going. As a reminder you will want to:
 
 1) Start up a `tmux` session. You can create a new named session (`tmux new -s name`) or attach an existing session (`tmux a -t name`). 
 
-2) Once in the session start up your conda environment: `conda activate python_homework`
+2) Log on to `compute` or `scavenger` node with `srun`.
+   
+2) Once in the session start up your conda environment: `conda activate python_lab`
 
-3) Make sure you are in the directory that contains the python homework assignment (i.e. has this `README.md` file). Now you are ready to start up Jupyter Notebook. On poseidon run: `jupyter notebook --no-browser` and wait for it to start and report a port number. Then, on your local machine run: `ssh -N -f -L localhost:8888:localhost:8888 USERNAME@poseidon-[l1 or l2].whoi.edu`-- filling in Username, port number and l1 or l2 as fits your situation. 
-
+3) Make sure you are in the directory that contains the python homework assignment (i.e. has this `README.md` file). Now you are ready to start up Jupyter Notebook. On poseidon run: `jupyter notebook --no-browser`
 ## Doing the homework
 
 1) For the first part of the you will use the existing `Six-Frame-Translation.ipynb` jupyter notebook. There are three main questions that you will need to answer by filling in code in the provided cells. Ultimately, you will need to create the functions `six_frame`, `six_frame_specify`, `read_in_tables`, and `six_frame_changetable`. These functions largely build upon one another so you may want to copy and modify the code from the previous question. To aid in writing your answers I have provided a TESTING cell for you to use that has a series of assertion statements. If all the assertion statements pass they will not print anything and that means your code is working based on my specifications. You will be graded both on your code running and the comments you write on your code. So, please be sure to comment your code well. 
