@@ -42,9 +42,8 @@ Note: for this exericse the sequence files provided are not in fasta format-- th
 I have provided the framework for this script already within this repo. Once you have a script that you think is working run the following commands:
 
 ```
-python six-frame-translation.py sequences/DNA1.txt invert-mito output/DNA1.invert-mito.list
-python six-frame-translation.py sequences/DNA2.txt invert-mito output/DNA2.invert-mito.list
-python six-frame-translation.py sequences/DNA1.txt testtest output/DNA1.testtest.list
+python six-frame-translation.py sequences/DNA1.txt inmito-code output/DNA1.inmito-code.list
+python six-frame-translation.py sequences/DNA2.txt inmito-code output/DNA2.inmito-code.list
 python six-frame-translation.py sequences/DNA1.txt meso-code output/DNA1.meso-code.list 
 python six-frame-translation.py sequences/DNA2.txt meso-code output/DNA2.meso-code.list 
 ```
